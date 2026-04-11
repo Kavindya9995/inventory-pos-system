@@ -1,0 +1,11 @@
+{
+  "name": "shopmaster",
+  "version": "1.0.0",
+  "description": "ShopMaster - Inventory & Billing System",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "seed": "cd backend && npm run seed"
+  }
+}

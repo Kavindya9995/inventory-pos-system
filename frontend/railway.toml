@@ -1,0 +1,5 @@
+[build]
+buildCommand = "cd frontend && npm install && npm run build"
+
+[deploy]
+startCommand = "npx serve -s frontend/build -p $PORT --no-clipboard"
